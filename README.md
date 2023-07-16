@@ -9,6 +9,23 @@ Portfolio
 
 Como vimos en las clases anteriores, una de las principales tareas de un desarrollador front-end es estructurar interfaces a partir de un wireframe o una imagen. El desafío será reconocer los diferentes componentes y layouts que ofrece la documentación de Bootstrap y comenzar a estructurar un archivo hasta obtener un resultado visual similar a la referencia, pero con sus datos personales.
 
+
+ ![](https://raw.githubusercontent.com/sgcm14/0523C02-portfolio/main/img/Bocetos/desktop.png)
+> Pantalla de **Desktop**
+
+![](https://raw.githubusercontent.com/sgcm14/0523C02-portfolio/main/img/Bocetos/tablet.png)
+> Pantalla de **Tablet**
+
+![](https://raw.githubusercontent.com/sgcm14/0523C02-portfolio/main/img/Bocetos/mobile.png)
+> Pantalla de **Mobile**
+
+![](https://raw.githubusercontent.com/sgcm14/0523C02-portfolio/main/img/Bocetos/hover.png)
+> Pantalla de **Hover**
+
+![](https://raw.githubusercontent.com/sgcm14/0523C02-portfolio/main/img/Bocetos/modal.png)
+> Pantalla de **Modal**
+
+
 **Desafío:**
 ------------
 Tomando como referencia los bocetos que se encuentran en este archivo, comenzaremos a utilizar los componentes y layouts de Bootstrap para armar nuestro portfolio on line. Allí encontrarán también las imágenes necesarias.

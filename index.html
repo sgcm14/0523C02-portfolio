@@ -6,20 +6,165 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header>
-
+    <nav class="navbar navbar-expand-lg navbar-dark menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">(sgcm14)</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span>MENÚ</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- <div class="navbar-nav me-auto mb-2 mb-lg-0"></div> -->
+          <ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SOBRE MÍ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
+    <section class="py-5 text-center  banner">
+      <div class="py-lg-5">
+        <img src="img/sam.jpg" alt="Sammy Gigi Cantoral Montejo" width="200" class="rounded-circle">
+        <h1 class="my-3">Sammy Gigi Cantoral Montejo</h1>
 
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="hr-line-quarter"></div>
+          <i class="bi bi-star-fill star"></i>
+          <div class="hr-line-quarter"></div>
+        </div>
+        <p class="my-3">Frontend Developer - Angular | Ingeniera de Sistemas e Informática Colegiada</p>
+      </div>
+    </section>
+
+    <section class="py-5 text-center  portfolio" id="portfolio">
+      <div class="py-lg-5">
+        <h1 class="my-3">PORTFOLIO</h1>
+
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="hr-line-quarter"></div>
+          <i class="bi bi-star-fill star"></i>
+          <div class="hr-line-quarter"></div>
+        </div>
+
+        <div class="container-fluid row w-auto">
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/lemon-pie.jpeg" alt="lemon pie" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Lemon pie</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/CVBatman.png" alt="batman" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Batman</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/super.png" alt="super heroes" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Súper Héroes</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/petshop.jpeg" alt="pet shop" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Pet shop</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/pizza.jpeg" alt="pizza" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Pizzería</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/gameshop.jpeg" alt="gameshop" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Game Shop</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/animations.jpg" alt="animaciones" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Animaciones</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/dev.png" alt="developer" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Master Dev</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/flex-grid.png" alt="flex-grid" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Flex-Grid</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/insta.jpg" alt="instafront" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Insta Front</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/puzzle.jpg" alt="puzzle" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Puzzle</p>
+            </div>
+          </article>
+
+          <article class="card col-lg-4 col-md-6 col-sm-12" style="border: none;">
+            <img src="img/sports.webp" alt="sport it" class="card-img-top">
+            <div class="card-body">
+              <p class="card-text">Sport It</p>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+    </section>
   </main>
 
   <footer>
 
   </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

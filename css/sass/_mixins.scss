@@ -1,0 +1,35 @@
+@mixin star($color) {
+  .star {
+    margin: 0px 10px;
+    color: $color;
+  }
+
+  .hr-line-quarter {
+    flex-grow: 1;
+    height: 3px;
+    background-color: $color;
+  }
+
+  .hr-line-quarter:not(:first-child) {
+    margin-right: 25%;
+
+    @media (min-width:1024px){
+      margin-right: 45%;
+    }
+
+    @media (min-width:768px){
+      margin-right: 35%;
+    }
+  }
+
+  .hr-line-quarter:not(:last-child) {
+    margin-left: 25%;
+    @media (min-width:1024px){
+      margin-left: 45%;
+    }
+
+    @media (min-width:768px){
+      margin-left: 35%;
+    }
+  }
+}
