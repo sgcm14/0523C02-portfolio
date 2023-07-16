@@ -92,9 +92,6 @@ main .portfolio .hr-line-quarter:not(:last-child) {
     margin-left: 35%;
   }
 }
-main .portfolio article img {
-  height: 296px;
-}
 main .portfolio article p {
   color: #374859;
   font-weight: bolder;
@@ -117,4 +114,89 @@ main .portfolio article:hover::after {
   font-size: 100px;
   font-weight: bolder;
   cursor: pointer;
+}
+main .portfolio img {
+  height: 296px;
+}
+main .portfolio .button-modal {
+  background-color: #c2b2b4;
+  color: #ffffff;
+}
+main .about {
+  background-color: #c2b2b4;
+  color: #ffffff;
+}
+main .about .star {
+  margin: 0px 10px;
+  color: #ffffff;
+}
+main .about .hr-line-quarter {
+  flex-grow: 1;
+  height: 3px;
+  background-color: #ffffff;
+}
+main .about .hr-line-quarter:not(:first-child) {
+  margin-right: 25%;
+}
+@media (min-width: 1024px) {
+  main .about .hr-line-quarter:not(:first-child) {
+    margin-right: 45%;
+  }
+}
+@media (min-width: 768px) {
+  main .about .hr-line-quarter:not(:first-child) {
+    margin-right: 35%;
+  }
+}
+main .about .hr-line-quarter:not(:last-child) {
+  margin-left: 25%;
+}
+@media (min-width: 1024px) {
+  main .about .hr-line-quarter:not(:last-child) {
+    margin-left: 45%;
+  }
+}
+@media (min-width: 768px) {
+  main .about .hr-line-quarter:not(:last-child) {
+    margin-left: 35%;
+  }
+}
+main .contact {
+  background-color: #ffffff;
+  color: #374859;
+}
+main .contact .star {
+  margin: 0px 10px;
+  color: #374859;
+}
+main .contact .hr-line-quarter {
+  flex-grow: 1;
+  height: 3px;
+  background-color: #374859;
+}
+main .contact .hr-line-quarter:not(:first-child) {
+  margin-right: 25%;
+}
+@media (min-width: 1024px) {
+  main .contact .hr-line-quarter:not(:first-child) {
+    margin-right: 45%;
+  }
+}
+@media (min-width: 768px) {
+  main .contact .hr-line-quarter:not(:first-child) {
+    margin-right: 35%;
+  }
+}
+main .contact .hr-line-quarter:not(:last-child) {
+  margin-left: 25%;
+}
+@media (min-width: 1024px) {
+  main .contact .hr-line-quarter:not(:last-child) {
+    margin-left: 45%;
+  }
+}
+@media (min-width: 768px) {
+  main .contact .hr-line-quarter:not(:last-child) {
+    margin-left: 35%;
+  }
 }/*# sourceMappingURL=style.css.map */

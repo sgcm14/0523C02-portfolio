@@ -32,10 +32,6 @@ main {
 
     article {
 
-      img {
-        height: 296px;
-      }
-
       p {
         color: $blue-primary;
         font-weight: bolder;
@@ -63,5 +59,26 @@ main {
       cursor: pointer;
     }
 
+    img {
+      height: 296px;
+    }
+
+    .button-modal {
+      background-color: $purple-secondary;
+      color: $white;
+    }
+
+  }
+
+  .about {
+    background-color: $purple-secondary;
+    color: $white;
+    @include star($white)
+  }
+
+  .contact {
+    background-color: $white;
+    color: $blue-primary;
+    @include star($blue-primary);
   }
 }
