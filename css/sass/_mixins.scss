@@ -13,23 +13,37 @@
   .hr-line-quarter:not(:first-child) {
     margin-right: 25%;
 
-    @media (min-width:1024px){
+    @media (min-width:1024px) {
       margin-right: 45%;
     }
 
-    @media (min-width:768px){
+    @media (min-width:768px) {
       margin-right: 35%;
     }
   }
 
   .hr-line-quarter:not(:last-child) {
     margin-left: 25%;
-    @media (min-width:1024px){
+
+    @media (min-width:1024px) {
       margin-left: 45%;
     }
 
-    @media (min-width:768px){
+    @media (min-width:768px) {
       margin-left: 35%;
     }
   }
+}
+
+@mixin custom-input($color) {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $color;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+@mixin button-purple {
+  background-color: $purple-secondary;
+  color: $white;
 }

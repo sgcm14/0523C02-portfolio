@@ -199,4 +199,15 @@ main .contact .hr-line-quarter:not(:last-child) {
   main .contact .hr-line-quarter:not(:last-child) {
     margin-left: 35%;
   }
+}
+main .contact form input, main .contact form textarea {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #53687e;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+main .contact form button {
+  background-color: #c2b2b4;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

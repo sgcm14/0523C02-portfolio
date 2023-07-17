@@ -64,8 +64,7 @@ main {
     }
 
     .button-modal {
-      background-color: $purple-secondary;
-      color: $white;
+      @include button-purple;
     }
 
   }
@@ -80,5 +79,17 @@ main {
     background-color: $white;
     color: $blue-primary;
     @include star($blue-primary);
+
+    form {
+
+      input,
+      textarea {
+        @include custom-input($blue-second)
+      }
+
+      button {
+        @include button-purple;
+      }
+    }
   }
 }
