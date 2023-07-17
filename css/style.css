@@ -200,7 +200,8 @@ main .contact .hr-line-quarter:not(:last-child) {
     margin-left: 35%;
   }
 }
-main .contact form input, main .contact form textarea {
+main .contact form input,
+main .contact form textarea {
   border: none;
   border-radius: 0;
   border-bottom: 1px solid #53687e;
@@ -209,5 +210,38 @@ main .contact form input, main .contact form textarea {
 }
 main .contact form button {
   background-color: #c2b2b4;
+  color: #ffffff;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #6b4e71;
+  color: #ffffff;
+}
+
+footer .items {
+  background-color: #53687e;
+  color: #ffffff;
+}
+footer .items a i {
+  color: #ffffff;
+}
+footer .items .circle-wrapper {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 5px;
+}
+footer .items .circle-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+footer .texto {
+  background-color: #1a252f;
   color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

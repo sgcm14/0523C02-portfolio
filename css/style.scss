@@ -93,3 +93,44 @@ main {
     }
   }
 }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: $purple-primary;
+  color: $white;
+}
+
+footer {
+  .items {
+    background-color: $blue-second;
+    color: $white;
+
+    a {
+      i {
+        color: $white;
+      }
+    }
+
+    .circle-wrapper {
+      display: inline-block;
+      border: 1px solid $white;
+      border-radius: 50%;
+      padding: 6px;
+      margin: 5px;
+    }
+
+    .circle-link {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .texto {
+    background-color: $black;
+    color: $white;
+  }
+}
